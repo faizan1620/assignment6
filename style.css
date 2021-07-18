@@ -1,0 +1,172 @@
+table,td,th{
+    align-content: center;
+    border:0.5px solid grey;
+    border-collapse: collapse;
+    padding: 18px;
+    margin-left:340px;
+    
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover{
+    background-color: #ddd;
+}
+
+
+
+table th {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    margin: 25px;
+}
+
+.button-toolbar{
+    margin-top:5px;
+    
+}
+
+#firstButton{
+    border:1px solid grey;
+    cursor: pointer;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10%;
+    background-color: rgba(255, 136, 0, 0.932);
+    color: whitesmoke;
+    font-size: large;
+    transition: all 0.8s;
+    text-align: center;
+    
+}
+
+#datetime{
+    font-size: 20px;
+    float: right;
+    margin-right: 170px;
+    margin-top: 40px;
+  
+
+}
+
+#addData{
+    display: none;
+    border:1px solid grey;
+    cursor: pointer;
+    padding: 15px;
+    margin: 20px;
+    margin-right: 400px;
+    text-align: center;
+    border-radius: 10%;
+    background-color: rgba(122, 11, 226, 0.932);
+    color: whitesmoke;
+    font-size: large;
+    transition: all 0.8s;
+    text-align: center;
+    float: right;
+}
+
+#addData:hover{
+    text-decoration: underline;
+    background-color: rgb(46, 5, 94);
+}
+
+#firstButton:hover{
+    text-decoration: underline;
+    background-color: rgb(245, 100, 4);
+}
+
+#onDeleting{
+    background-color: rgb(252, 94, 32);
+    border: none;
+    border-radius: 12%;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 1px;
+    cursor: pointer;
+    transition: all 0.8s;
+    width:68px;
+}
+
+#onDeleting:hover{
+    text-decoration: underline;
+    background-color: rgb(170, 55, 20);
+    
+}
+
+.save-button{
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 12%;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right:3px ;
+    cursor: pointer;
+    transition: all 0.8s;
+    width: 60px;
+}
+
+.save-button:hover{
+    text-decoration: underline;
+    background-color: rgb(12, 90, 12);
+    
+}
+
+#onEditing{
+    background-color: #0a96e7;
+    border: none;
+    border-radius: 12%;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right:3px ;
+    cursor: pointer;
+    transition: all 0.8s;
+    width: 60px;
+}
+
+#onEditing:hover{
+    text-decoration: underline;
+    background-color: rgb(56, 194, 236);
+}
+
+.cancel-button{
+    background-color: #9b9c97;
+    border: none;
+    border-radius: 12%;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:1px ;
+    cursor: pointer;
+    transition: all 0.8s;
+    width:68px;
+}
+
+.cancel-button:hover{
+    text-decoration: underline;
+    background-color: rgb(86, 90, 86);
+}
